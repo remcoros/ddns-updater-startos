@@ -1,8 +1,8 @@
 id: ddns-updater
 title: "DDNS Updater"
-version: 2.7.0
+version: 2.8.1
 release-notes: |
-  * Initial release of DDNS Updater 2.7.0
+  * Update to DDNS Updater 2.8.1 - [Release Notes](https://github.com/qdm12/ddns-updater/releases/tag/v2.8.1)
 license: MIT
 wrapper-repo: "https://github.com/remcoros/ddns-updater-startos"
 upstream-repo: "https://github.com/qdm12/ddns-updater/"
