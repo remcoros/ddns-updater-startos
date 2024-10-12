@@ -1,6 +1,4 @@
-# Pin to sha. '2.7.0' is broken and 'latest' is too wide.
-FROM qmcgaw/ddns-updater@sha256:889463ca73707430cca7e823b39e977a4561e8eba4327a8720e1551a600eacfb as build
-
+FROM qmcgaw/ddns-updater:2.8.1 AS build
 FROM alpine:latest
 
 # these are specified in Makefile
@@ -47,6 +45,7 @@ ENV \
     SHOUTRRR_ADDRESSES= \
     SHOUTRRR_DEFAULT_TITLE="DDNS Updater" \
     TZ= \
+    UMASK= \
     HEALTH_SERVER_ADDRESS=127.0.0.1:9999 \
     HEALTH_HEALTHCHECKSIO_BASE_URL=https://hc-ping.com \
     HEALTH_HEALTHCHECKSIO_UUID=

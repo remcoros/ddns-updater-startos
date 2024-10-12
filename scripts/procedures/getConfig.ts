@@ -29,7 +29,7 @@ export const getConfig: T.ExpectedExports.getConfig = compat.getConfig({
     spec: {
       LOG_LEVEL: {
         type: "string",
-        name: "Public IP fetchers",
+        name: "Level of logging",
         description: "Level of logging, debug, info, warning or error",
         nullable: false,
         default: "info",
