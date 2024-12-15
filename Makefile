@@ -11,12 +11,10 @@ YQ_SHA_ARM64 := a84f2c8f105b70cd348c3bf14048aeb1665c2e7314cbe9aaff15479f268b8412
 all: verify
 
 arm:
-	# this is not a typo, when building arm, remove the x86_64 image so it doesn't get packed by start-sdk
 	@rm -f docker-images/x86_64.tar
 	@ARCH=aarch64 $(MAKE)
 
 x86:
-	# this is not a typo, when building x86, remove the aarch64 image so it doesn't get packed by start-sdk
 	@rm -f docker-images/aarch64.tar
 	@ARCH=x86_64 $(MAKE)
 
