@@ -1,8 +1,9 @@
 id: ddns-updater
 title: "DDNS Updater"
-version: 2.8.2
+version: 2.9.0
 release-notes: |
-  * Update to DDNS Updater 2.8.2 - [Release Notes](https://github.com/qdm12/ddns-updater/releases/tag/v2.8.2)
+  * Update to DDNS Updater 2.9.0 - [Release Notes](https://github.com/qdm12/ddns-updater/releases/tag/v2.9.0)
+  * Update bundling process to use Deno emit module
 license: MIT
 wrapper-repo: "https://github.com/remcoros/ddns-updater-startos"
 upstream-repo: "https://github.com/qdm12/ddns-updater/"

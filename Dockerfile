@@ -1,4 +1,4 @@
-FROM qmcgaw/ddns-updater:2.8.2 AS build
+FROM qmcgaw/ddns-updater:2.9.0 AS build
 FROM alpine:latest
 
 # these are specified in Makefile
